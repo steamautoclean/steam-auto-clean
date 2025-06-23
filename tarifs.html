@@ -2,120 +2,34 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tarifs - Steam Auto Clean</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; background: #f4f4f4; margin: 0; color: #333; }
-    header, footer { background: #1b1f3a; color: white; text-align: center; padding: 20px; }
-    nav a { margin: 0 10px; color: white; text-decoration: none; font-weight: 600; }
-    .container { max-width: 1000px; margin: auto; padding: 40px 20px; }
-    h2 { text-align: center; margin-bottom: 30px; }
-    .tarif-card {
-      background: white;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-    .tarif-card h3 { margin-bottom: 10px; }
-    ul { padding-left: 20px; margin: 10px 0; }
-    .section-title { margin-top: 40px; font-size: 1.4rem; color: #1b1f3a; }
-    .btn {
-      display: inline-block;
-      background: #1b1f3a;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 30px;
-      text-decoration: none;
-      margin-top: 15px;
-      transition: background 0.3s ease;
-    }
-    .btn:hover { background: #313867; }
-    .cta-buttons { text-align: center; margin-top: 40px; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Tarifs</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
-  <h1>Steam Auto Clean</h1>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="tarifs.html">Prestations & Tarifs</a>
-    <a href="index.html#contact">Contact</a>
-  </nav>
+    <nav>
+        <a href="index.html">Accueil</a> |
+        <a href="services.html">Services</a> |
+        <a href="tarifs.html">Tarifs</a> |
+        <a href="realisations.html">Réalisations</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
 </header>
-
-<div class="container">
-  <h2>Prestations & Tarifs</h2>
-
-  <div class="section-title">🚗 Nettoyage automobile</div>
-  <div class="tarif-card">
-    <h3>Intérieur - Essentiel</h3>
+<main>
+    <h1>Nos Tarifs</h1>
+    <h2>Voitures</h2>
     <ul>
-      <li>Citadine : 59 CHF</li>
-      <li>Berline / Break : 69 CHF</li>
-      <li>SUV / 4x4 : 89 CHF</li>
+        <li>Petite voiture : 50 CHF</li>
+        <li>Berline/SUV : 70 CHF</li>
+        <li>Détachage complet : 100 CHF</li>
     </ul>
-    <h3>Intérieur - Complet</h3>
+    <h2>Mobilier</h2>
     <ul>
-      <li>Citadine : 99 CHF</li>
-      <li>Berline / Break : 109 CHF</li>
-      <li>SUV / 4x4 : 129 CHF</li>
+        <li>Canapé 3 places : 60 CHF</li>
+        <li>Matelas 1 place : 30 CHF</li>
+        <li>Matelas 2 places : 50 CHF</li>
     </ul>
-    <h3>Extérieur - Complet</h3>
-    <ul>
-      <li>Citadine : 79 CHF</li>
-      <li>Berline / Break : 89 CHF</li>
-      <li>SUV / 4x4 : 99 CHF</li>
-    </ul>
-  </div>
-
-  <div class="section-title">🛋️ Nettoyage de mobilier et literie</div>
-  <div class="tarif-card">
-    <ul>
-      <li>Chaise tissu : 10 CHF</li>
-      <li>Chaise avec accoudoirs : 15 CHF</li>
-      <li>Fauteuil 1 place : 45 CHF</li>
-      <li>Canapé 2 places : 90 CHF</li>
-      <li>Canapé 3 places : 130 CHF</li>
-      <li>Canapé d’angle : 160 CHF</li>
-      <li>Matelas 1 place : 65 CHF</li>
-      <li>Matelas 2 places : 110 CHF</li>
-      <li>Grand matelas : 130 CHF</li>
-    </ul>
-  </div>
-
-  <div class="section-title">🧼 Options supplémentaires</div>
-  <div class="tarif-card">
-    <ul>
-      <li>Textile très sale ou poils d’animaux : +15 CHF</li>
-      <li>Désinfection vapeur + ozone : +25 CHF</li>
-      <li>Traitement anti-acariens ou anti-taches : +20 CHF</li>
-      <li>Nettoyage moteur vapeur : +30 CHF</li>
-    </ul>
-  </div>
-
-  <div class="section-title">🚚 Frais de déplacement</div>
-  <div class="tarif-card">
-    <ul>
-      <li>Inclus jusqu’à 20 km</li>
-      <li>10 CHF entre 20 et 35 km</li>
-      <li>0.80 CHF/km au-delà de 35 km</li>
-    </ul>
-    <p><strong>💧 Remise de 5 CHF si vous fournissez un tuyau d’eau.</strong></p>
-  </div>
-
-  <div class="cta-buttons">
-    <a href="https://wa.me/41791234567" class="btn">📱 Réserver par WhatsApp</a>
-    <a href="mailto:steamautoclean@email.com" class="btn">📧 Réserver par e-mail</a>
-  </div>
-</div>
-
-<footer>
-  <p>&copy; 2025 Steam Auto Clean</p>
-</footer>
-
+</main>
 </body>
 </html>
