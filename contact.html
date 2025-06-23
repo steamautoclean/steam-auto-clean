@@ -2,34 +2,28 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+  <header>
+    <h1>Contact / Réservation</h1>
     <nav>
-        <a href="index.html">Accueil</a> |
-        <a href="services.html">Services</a> |
-        <a href="tarifs.html">Tarifs</a> |
-        <a href="realisations.html">Réalisations</a> |
-        <a href="contact.html">Contact</a>
+      <a href="index.html">Accueil</a>
+      <a href="tarifs.html">Tarifs</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="contact.html">Contact</a>
     </nav>
-</header>
-<main>
-    <h1>Contact & Réservation</h1>
-    <form>
-        <label>Nom : <input type="text" name="nom"></label><br>
-        <label>Téléphone : <input type="tel" name="telephone"></label><br>
-        <label>Service : 
-            <select name="service">
-                <option value="auto">Nettoyage voiture</option>
-                <option value="mobilier">Nettoyage mobilier</option>
-            </select>
-        </label><br>
-        <label>Date souhaitée : <input type="date" name="date"></label><br>
-        <button type="submit">Envoyer</button>
+  </header>
+  <main>
+    <form action="mailto:steamautocleanjura@gmail.com" method="post" enctype="text/plain">
+      <label>Nom :<br><input type="text" name="Nom"></label><br><br>
+      <label>Téléphone :<br><input type="text" name="Téléphone"></label><br><br>
+      <label>Service demandé :<br><textarea name="Service" rows="4" cols="40"></textarea></label><br><br>
+      <input type="submit" value="Envoyer">
     </form>
-</main>
+  </main>
+  <footer>© 2025 Steam Auto Clean</footer>
 </body>
 </html>
