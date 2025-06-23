@@ -1,47 +1,45 @@
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  background: #f6f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
-
 header {
-    background: #2d89ef;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #003249;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
-
-nav a {
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
+.logo {
+  height: 80px;
 }
-
 main {
-    padding: 20px;
+  padding: 20px;
 }
-
+section {
+  margin-bottom: 30px;
+}
+h2 {
+  color: #003249;
+}
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+.btn {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
 footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-}
-
-form input, form textarea, form button {
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 1em;
+  text-align: center;
+  background: #e3e3e3;
+  padding: 10px;
+  font-size: 0.9em;
 }
